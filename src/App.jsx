@@ -28,7 +28,8 @@ function App() {
       <button type="button" onClick={getQuote}>Générer une citation</button>
 
       <p>{sentence.quote}</p>
-      <p> {sentence.characters}</p>
+
+      <p> {sentence.character}</p>
       <img src={sentence.image} alt=""></img>
     </div>
   );
